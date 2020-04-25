@@ -12,56 +12,56 @@
   - [Features](#features)
   - [Interface](#interface)
   - [Backend](#backend)
-- [iStalk 💩](#istalk-)
+- [💩 iStalk](#-istalk)
   - [Idea](#idea)
   - [Interface](#interface-1)
-- [Collaborative Bookmarking ✨🎁](#collaborative-bookmarking-)
-- [Lightspeed for Chrome 🚀](#lightspeed-for-chrome-)
+- [✨🎁 Collaborative Bookmarking](#-collaborative-bookmarking)
+- [🚀Lightspeed for Chrome](#lightspeed-for-chrome)
 - [Facebook Analytics](#facebook-analytics)
 - [API for Workflowy](#api-for-workflowy)
-- [Lettersafe 💩](#lettersafe-)
+- [💩Lettersafe](#lettersafe)
 - [Email on top of keybase](#email-on-top-of-keybase)
-- [Newsletters for GitHub 🚀](#newsletters-for-github-)
-- [Hacking via OAauth tokens 🚀](#hacking-via-oaauth-tokens-)
+- [🚀 Newsletters for GitHub](#-newsletters-for-github)
+- [🚀Hacking via OAauth tokens](#hacking-via-oaauth-tokens)
   - [But OAuth tokens can be revoked](#but-oauth-tokens-can-be-revoked)
   - [Procedure](#procedure)
 - [Pluggable Notify Daemon for Linux](#pluggable-notify-daemon-for-linux)
 - [✨🎁 Telegram To RSS](#-telegram-to-rss)
-- [Disable Local Fonts Extension 🎁](#disable-local-fonts-extension-)
+- [🎁 Disable Local Fonts Extension](#-disable-local-fonts-extension)
 - [Arch Linux Package Build System](#arch-linux-package-build-system)
 - [Hacker News Research Bot](#hacker-news-research-bot)
-- [Slack Dialer 🎁 🚧](#slack-dialer--)
+- [🎁 🚧 Slack Dialer](#--slack-dialer)
 - [Database Conversion Toolkit using an ORM](#database-conversion-toolkit-using-an-orm)
-- [Tachiyomi Headless 🎁](#tachiyomi-headless-)
-- [OPML Generator 🚀](#opml-generator-)
-- [Bangalore Events List 🎁 🚧](#bangalore-events-list--)
-- [Amazon Price Tracker with RSS 🚀](#amazon-price-tracker-with-rss-)
+- [🎁 Tachiyomi Headless](#-tachiyomi-headless)
+- [🚀 OPML Generator](#-opml-generator)
+- [🎁 🚧 Bangalore Events List](#--bangalore-events-list)
+- [🚀 Amazon Price Tracker with RSS](#-amazon-price-tracker-with-rss)
 - [OPML Sync](#opml-sync)
-- [Sanskari Proxy ✨🎁](#sanskari-proxy-)
+- [✨🎁 Sanskari Proxy](#-sanskari-proxy)
 - [Helm Charts for Self-Hosting](#helm-charts-for-self-hosting)
 - [Fake Paytm Payment](#fake-paytm-payment)
-- [Automated Personal Finance ✨](#automated-personal-finance-)
+- [✨ Automated Personal Finance](#-automated-personal-finance)
 - [CardDAV on Slack](#carddav-on-slack)
-- [UPI on Desktop ✨](#upi-on-desktop-)
+- [✨ UPI on Desktop](#-upi-on-desktop)
 - [Twitter Adventure Maker](#twitter-adventure-maker)
 - [Playstore RSS Feed for Version Updates](#playstore-rss-feed-for-version-updates)
 - [Calendar Feed for Event Websites](#calendar-feed-for-event-websites)
 - [SVG to PNG on the Edge](#svg-to-png-on-the-edge)
 - [NammaBescom OCR/Overlay Bot](#nammabescom-ocroverlay-bot)
-- [nofollow enforcer 💩](#nofollow-enforcer-)
+- [💩 nofollow enforcer](#-nofollow-enforcer)
   - [Introduction](#introduction-1)
   - [Need](#need)
   - [Solution](#solution)
   - [Notes](#notes)
-- [Mars: Terraform Remote HTTP Backend with End-to-End encryption 🎁](#mars-terraform-remote-http-backend-with-end-to-end-encryption-)
+- [🎁 Mars: Terraform Remote HTTP Backend with End-to-End encryption](#-mars-terraform-remote-http-backend-with-end-to-end-encryption)
   - [Why](#why)
   - [Backend](#backend-1)
   - [Extras](#extras)
-- [iOS OPDS File Provider 🎁](#ios-opds-file-provider-)
+- [🎁 iOS OPDS File Provider](#-ios-opds-file-provider)
 - [iOS \*sonic File Provider](#ios-%5Csonic-file-provider)
 - [collaborative-bookmarking](#collaborative-bookmarking)
-- [Boardgame AI Gym 👩‍🔬](#boardgame-ai-gym-%E2%80%8D)
-- [Green/Yellow Pages 🎁 ✨](#greenyellow-pages--)
+- [👩‍🔬 Boardgame AI Gym](#%E2%80%8D-boardgame-ai-gym)
+- [🎁 ✨ Green/Yellow Pages](#--greenyellow-pages)
   - [API](#api)
   - [Spam registration](#spam-registration)
   - [Data Store](#data-store)
@@ -74,10 +74,10 @@
   - [Cost of Computation](#cost-of-computation)
   - [Terms](#terms)
   - [References](#references)
-- [communities browser extension 🎁](#communities-browser-extension-)
+- [🎁 communities browser extension](#-communities-browser-extension)
 - [onioncannon](#onioncannon)
   - [Use Case](#use-case)
-- [PyPi Notifier 🚀](#pypi-notifier-)
+- [🚀PyPi Notifier](#pypi-notifier)
   - [Sources](#sources)
   - [Notifications](#notifications)
 - [Licence](#licence)
@@ -131,7 +131,7 @@ Unlike facebook, which can directly access _any data_ on their servers, we are l
 
 This idea probably breaks lots of point in Facebook's ToS, but that doesn't mean it can't be built.
 
-## iStalk 💩
+## 💩 iStalk
 
 This is essentially a unified profile mechanism, where a user's identity is defined by all of their activity on various networks. While this has some cool sub-ideas (like correlating activity between various networks), the most important implication that arises is that it can be a perfect tool for stalking. However, you can easily add in consent from the original profile owner to clear that concern.
 
@@ -147,7 +147,7 @@ A profile creation page allows you to specify as much information as you have on
 
 Once a profile has been created, we will continuously long-poll the service to fetch new information as and when it becomes available. Real-time notifications are delivered to you as the person's activity is tracked.
 
-## Collaborative Bookmarking ✨🎁
+## ✨🎁 Collaborative Bookmarking
 
 There are a dozen bookmarking services out there, many of them quite well done. However, most services are focused on the idea that bookmarking is a lone-person habit, which someone does in isolation.
 
@@ -159,7 +159,7 @@ Bookmarking for Teams, in essence. Some good alternatives are [listed in this qu
 I've described this idea somewhat better in a chat log at [collaborative-bookmark.md](collaborative-bookmark.md)
 Google Spaces did some nice work here, but the product was shut down within an year of launch.
 
-## Lightspeed for Chrome 🚀
+## 🚀Lightspeed for Chrome
 
 [Lightspeed](https://www.youtube.com/watch?v=wLnSLFrQDG8) is an experimental UI design (not implemented) for Firefox that focuses on making the New Tab page more functional by giving the browser a decent way to search across bookmarks, open tabs, and history.
 
@@ -181,7 +181,7 @@ A recommendation engine built on top of my facebook data is a good idea, I think
 
 Workflowy is a cool tool that I use for note-taking. It allows infinitely nested lists with @mention and #hashtag support. One thing it lacks currently is API for me to access my own data. I think workflowy is a great tool that could become a lot better if there were a way for developers to hook into it. (For example using workflowy as a data-backend for a todo-app).
 
-## Lettersafe 💩
+## 💩Lettersafe
 
 My notes for lettersafe are on [workflowy](https://workflowy.com/s/5439f7a9-3762-f247-3e96-4d047b5d4ce0).
 
@@ -207,7 +207,7 @@ Doing the same thing on the receiving side is trickier though, but I like the id
 
 A Keybase plugin for Thunderbird would be similar in scope.
 
-## Newsletters for GitHub 🚀
+## 🚀 Newsletters for GitHub
 
 A lot of github project owners would like to send out newsletters to all of their
 stargazers. However, GitHub doesn't provide anything for that. An easy way would
@@ -232,7 +232,7 @@ _Update_: GitHub now supports [watching releases](https://github.blog/changelog/
 
 There are **lots** of related projects in this thread: https://github.com/isaacs/github/issues/410
 
-## Hacking via OAauth tokens 🚀
+## 🚀Hacking via OAauth tokens
 
 While pen-testing, once you've gained access to the target, it is often necessary to install a backdoor to mantain the access. While this is easily done in case of root access to the machine, this is not that easy if the target is an email account, lets say.
 
@@ -270,7 +270,7 @@ for each of them. (GMail notifications might open your mail client if you click 
 
 Keep it pluggable, otherwise its of no use.
 
-## ✨🎁 Telegram To RSS 
+## ✨🎁 Telegram To RSS
 
 There are quite a lot of Telegram channels that are popping up these days that I really like using.
 
@@ -307,7 +307,7 @@ Related links:
 - [Difference between the MTProto and Bot APIs](https://docs.pyrogram.org/topics/mtproto-vs-botapi)
 - [Pyrogram](https://docs.pyrogram.org/faq#what-is-pyrogram) seems to support MTProto, so that is what I'd try next.
 
-## Disable Local Fonts Extension 🎁
+## 🎁 Disable Local Fonts Extension
 
 A simple browser extension for web developers that disable local fonts from loading. Alternatively, it raises a grave warning if a web-font was bypassed for a local font. This is helpful if you are a developer:
 
@@ -347,7 +347,7 @@ _Update 2_: The mods are not very happy with the [abstract being posted](https:/
 
 For Bonus Points: Include a link to the fermat library URL of the paper (if available).
 
-## Slack Dialer 🎁 🚧
+## 🎁 🚧 Slack Dialer
 
 All of our company has contact numbers added on Slack, but it is cumbersome to find someone's profile on Slack. A simple dialer application that does OAuth-verification on your Slack profile to get a list of the entire organization, and present a simple dialer for all the people who have contact details added.
 
@@ -371,7 +371,7 @@ sqlite to mysql and trying every solution in [this SO question](https://stackove
 
 There are some closed solutions to this, but would like a open-source solution that does this well.
 
-## Tachiyomi Headless 🎁
+## 🎁 Tachiyomi Headless
 
 [Tachiyomi](https://github.com/inorichi/tachiyomi/) is a Android application written in Kotlin that
 scrapes comics from various web sources. A headless version of it would be great to have, replacing
@@ -403,7 +403,7 @@ comics:
     - https://manga-fox.com/one-piece
 ```
 
-## OPML Generator 🚀
+## 🚀 OPML Generator
 
 Simple web tool to generate OPML files to let you use RSS feeds everywhere.
 
@@ -426,7 +426,7 @@ What if one could generate a OPML feed for:
 
 Related: https://github.com/RSS-Bridge/rss-bridge (I have contributed a few bridges to this)
 
-## Bangalore Events List 🎁 🚧
+## 🎁 🚧 Bangalore Events List
 
 Similar in scope to http://webuild.sg/ or http://engineers.sg/ but for Bangalore.
 
@@ -438,7 +438,7 @@ Domain name suggestions are welcome. Since blr doesn't have a TLD, I was conside
 
 Initial Work: https://github.com/captn3m0/gardencity.events There is also some work from @tallpants on this at <https://github.com/tallpants/meetup2ics/>
 
-## Amazon Price Tracker with RSS 🚀
+## 🚀 Amazon Price Tracker with RSS
 
 There are some nice open source trackers available for Price Tracking Amazon products,
 but I would like to see something that generated an RSS Feed.
@@ -462,7 +462,7 @@ a product idea by itself, more of a extension idea for existing RSS Readers.
 
 See related discussion on the [tt-rss forums](https://discourse.tt-rss.org/t/subscribe-to-opml/1230).
 
-## Sanskari Proxy ✨🎁
+## ✨🎁 Sanskari Proxy
 
 A lot of Indian Government websites are inaccessible on the public internet, because
 they geo-fence it to within Indian Boundaries. I made a list of all [Indian Government
@@ -497,7 +497,7 @@ Why: To demonstrate to Paytm that they need to educate their merchants better ab
 
 Update: There are already two such apps on the Play Store. However, they don't work any more since they were based on the old UI Scheme. See [@Oxyenyos's PR](https://github.com/captn3m0/ideas/pull/10) for some more details.
 
-## Automated Personal Finance ✨
+## ✨ Automated Personal Finance
 
 A personal finance application that tracks things automatically, but saves all data on your systems.
 
@@ -553,7 +553,7 @@ from teams they've left.
 
 Another cool hack this enables is that for teams on Free Plans, which supports "Skype" field in your profile, but not Phone number, it allows you to use the "skype" field to build contact sync which converts the field to a mobile/telephone field as long as it is a valid telephone number.
 
-## UPI on Desktop ✨
+## ✨ UPI on Desktop
 
 A clean-room reverse engineered implementation of the NPCI Common Library.
 
@@ -575,11 +575,11 @@ This is a necessary step, but not the final step since that would be reversing t
 
 Play your own Adventure on Twitter threads have gotten quite famous recently:
 
-- [Being Startup CEO for a day: 
+- [Being Startup CEO for a day:
 DON'T LET YOUR COMPANY DIE](https://twitter.com/scottburke777/status/1143356872633851906)
 - [Being Beyoncé’s assistant for the day: DONT GET FIRED](https://twitter.com/CORNYASSBITCH/status/1142591156884127744)
 
-[@ChettyArun was wondering](https://twitter.com/ChettyArun/status/1144534623642255360) how these were even made with Twitter. 
+[@ChettyArun was wondering](https://twitter.com/ChettyArun/status/1144534623642255360) how these were even made with Twitter.
 
 One line pitch: Make a simple webapp that uses the Twitter UI to generate Play your own Adventures. For bonus points, add support for [Twine](https://twinery.org/) or perhaps DNML to let people create these easily.
 
@@ -615,7 +615,7 @@ A slightly stale version of this data is available at https://www.bescom.org/upo
 
 Credits: https://twitter.com/kingslyj/status/1219697117909803008
 
-## nofollow enforcer 💩
+## 💩 nofollow enforcer
 
 ### Introduction
 
@@ -661,7 +661,7 @@ _These are free-flow notes about the problem/solution/idea._
 -   We should also take care to actually check the link itself. For instance, the original link might point to some dummy site, but redirect to a spam website. Google would follow the redirect while crawling, and land up on the spam site if we are not careful.
 
 
-## Mars: Terraform Remote HTTP Backend with End-to-End encryption 🎁
+## 🎁 Mars: Terraform Remote HTTP Backend with End-to-End encryption
 
 A fork of <https://www.terraform.io/docs/backends/types/http.html>, which changes the configuration format to:
 
@@ -699,7 +699,7 @@ Needs to be a public good with restrictions:
 -   Support a breakdown into `read_encryption_key` and `write_encryption_key` for key rotation
 -   The encryption parts can perhaps be merged to upstream
 
-## iOS OPDS File Provider 🎁
+## 🎁 iOS OPDS File Provider
 
 iOS 11 and above support browsing arbitary "cloud" filesystems using a ["File Provider Extension"][fpe]. This allows your application to expose a arbitary directory structure to other applications using the Files app (and file-picker dialogs).
 
@@ -755,7 +755,7 @@ edits are synced as well, so you can edit bookmarks (title only) and it gets syn
 There are lots of tools that already sync your browser bookmarks, but once you have the base in place,
 you can make the "source/sink" configurable to things like Google Save / Pockets / Pinboard etc.
 
-## Boardgame AI Gym 👩‍🔬
+## 👩‍🔬 Boardgame AI Gym
 
 The idea is a mix of 2 things: reading research papers about Monopoly, and playing a lot of boardgames. There is a lot of good research work around monopoly [0] and certain card games (Poker etc), but modern board games (Catan has a little research community) haven't been looked at much. I wanted to do simulation-based research for modern games, but found that there is no easy tooling available to do this.
 
@@ -777,7 +777,7 @@ Work so far:
 - https://github.com/captn3m0/gothok
 - https://git.captnemo.in/nemo/boardgame2vec/
 
-## Green/Yellow Pages 🎁 ✨
+## 🎁 ✨ Green/Yellow Pages
 
 A distributed directory for spam reports.
 
@@ -824,15 +824,15 @@ leak _much_ info) along with the country code.
 We want a slow hash function but since we
 want this to be verifiable on the client itself,
 the ideal would be that it takes \~0.25s on a
-average mobile device. 
+average mobile device.
 
 Once we recieve the hash, check it against all
 the bloom filter layers in parallel and
-return the results as a score. 
+return the results as a score.
 
 For eg, if we have 1000 layers (to check upto
 1000 reports), return the highest layer number
-that has an entry for the number. 
+that has an entry for the number.
 
 ### Ledger
 
@@ -988,7 +988,7 @@ _Ledger_: A blockchain or ditributed log that maintains any reports.
 [solomon]: https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Solomon_Islands
 [res]: http://ieeexplore.ieee.org/document/5578947/?reload=true
 
-## communities browser extension 🎁
+## 🎁 communities browser extension
 
 Every community that I meet these days wants to use its own different app to manage things, or alternatively create its own special forum and so on.
 
@@ -1012,7 +1012,6 @@ The extension has the following features:
 The entire extension lives in browser space and localstorage. The backend just maintains a mapping of community id to profile IDs, which is synced once in a while. A community code might be required to add yourselves to the community.
 
 This is like Reddit flairs, but flairs only work on a single subreddit, this is intended to work across various discussion forums.
-
 
 ## onioncannon
 
@@ -1054,7 +1053,7 @@ Any client who scans this can now start sending encrypted data to the client.
 The nice thing is that you can transmit data however between these two parties, once it is encrypted. Use GCM/pusher if you wish.
 
 
-## PyPi Notifier 🚀
+## 🚀PyPi Notifier
 
 Problem: No way to get updates when any package I am using has a new release.
 
